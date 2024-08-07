@@ -1,0 +1,36 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+
+  .logo {
+    font-family: 'Raleway';
+    font-weight: 500;
+  }
+
+  .menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    .menu-item {
+      color: #000;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      font-size: 14pt;
+    }
+  }
+  
+  .contact-button {
+    font-family: 'Outfit', sans-serif;
+    background-color: #fffb1b;
+    color: #000;
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+}

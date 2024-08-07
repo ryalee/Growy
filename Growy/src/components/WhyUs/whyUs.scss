@@ -1,0 +1,53 @@
+.whyUs-container {
+  background-color: #fefc62;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 80px;
+  width: 100%;
+  border: 2px solid #000;
+
+  img {
+    width: 600px;
+    margin-bottom: -23px;
+  }
+
+  .whyUs-text {
+      h1 {
+      text-align: center;
+      font-size: 32pt;
+      margin-bottom: -10px;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    .info-card {
+      display: flex;
+      flex-direction: column;
+
+      .header-card {
+        display: flex;
+        align-items: center;
+
+        h3 {
+          font-size: 30pt;
+        }
+
+        p {
+          font-size: 14pt;
+          width: 100px;
+          margin-left: 10px;
+          font-weight: 600;
+        }
+      }
+
+      .card-text {
+        p {
+          font-size: 14pt;
+          width: 400px;
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+}

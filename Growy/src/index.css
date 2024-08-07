@@ -1,0 +1,9 @@
+body {
+  background-color: #efffff;
+  font-family: 'Outfit', sans-serif;
+  min-width: 100vw;
+}
+
+button {
+  cursor: pointer;
+}

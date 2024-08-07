@@ -1,0 +1,91 @@
+.projects-container {  
+  .projects-header {
+    width: 50%;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 10px;
+
+    img {
+      width: 200px;
+      margin-top: -170px;
+      margin-left: 600px;
+      position: absolute;
+    }
+
+    h1 {
+      font-size: 32pt;
+      font-weight: 500;
+      text-align: left;
+    }
+
+    p {
+      font-size: 16pt;
+    }
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+    .project-card {
+      display: flex;
+      justify-content: space-around;
+      
+      .card-header {
+        width: 400px;
+        text-align: left;
+        padding: 15px;
+
+        label {
+          padding: 8px;
+          border-radius: 20px;
+          border: 2px solid #000;
+        }
+
+        .label-social {
+          background-color: #65fe65;
+        }
+        .label-seo {
+          background-color: #fe6bd7;
+        }
+        .label-marketing {
+          background-color: #fffe6bd7;
+        }
+
+
+        h3 {
+          font-size: 18pt;
+        }
+
+        p {
+          font-size: 14pt;
+        }
+
+        button {
+          background: transparent;
+          padding: 10px;
+          border-radius: 20px;
+          border: 2px solid #000;
+        }
+        button:hover {
+          background-color: #000;
+          color: #fff;
+          transition: .3s;
+        }
+      }
+      
+      img {
+        width: 400px;
+        border: 2px solid #000;
+        border-radius: 20px;
+      }
+    }
+
+    .project2 {
+      flex-direction: row-reverse;
+    }
+  }
+}
