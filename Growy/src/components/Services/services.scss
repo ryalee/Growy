@@ -71,3 +71,37 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .services-container {
+    align-items: center;
+    justify-content: center;
+    
+    .service-text {
+      h2 {
+        margin-left: 25%;
+        font-size: 24pt;
+        width: 300px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        margin-left: 25%;
+        font-size: 14pt;
+        width: 300px;
+        text-align: justify;
+      }
+    }
+
+    .services-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      .service-card {
+        align-self: center;
+      }
+    }
+  }
+}

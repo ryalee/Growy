@@ -1,7 +1,9 @@
 body {
+  margin: 0;
   background-color: #efffff;
   font-family: 'Outfit', sans-serif;
   min-width: 100vw;
+  font-weight: 300;
 }
 
 button {
